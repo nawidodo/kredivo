@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  PromoDetailViewController.swift
 //  Kredivo
 //
-//  Created by Nugroho Arief Widodo on 27/05/23.
+//  Created by Nugroho Arief Widodo on 31/05/23.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class PromoDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-

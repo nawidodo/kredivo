@@ -7,23 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25AF6E5422E57DA03745EBE5 /* Pods_Kredivo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90EAE11B9317839AB9C294 /* Pods_Kredivo.framework */; };
+		CD07BCCB2A28D71D0059A75B /* MobileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD07BCCA2A28D71D0059A75B /* MobileHeaderView.xib */; };
+		CD07BCCD2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07BCCC2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift */; };
+		CD07BCCF2A28DEAC0059A75B /* MobileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07BCCE2A28DEAC0059A75B /* MobileHeaderView.swift */; };
+		CD07BCD12A28DF310059A75B /* DetailViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD07BCD02A28DF310059A75B /* DetailViewCell.xib */; };
+		CD07BCD32A28E31A0059A75B /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07BCD22A28E31A0059A75B /* DetailViewCell.swift */; };
+		CD07BCD52A28E63C0059A75B /* TextProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07BCD42A28E63C0059A75B /* TextProperties.swift */; };
+		CD07BCD72A28FAAF0059A75B /* VoucherListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD07BCD62A28FAAF0059A75B /* VoucherListView.xib */; };
+		CD07BCD92A28FF030059A75B /* VoucherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07BCD82A28FF030059A75B /* VoucherListView.swift */; };
+		CD07BCDB2A290BD20059A75B /* PINInputCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD07BCDA2A290BD20059A75B /* PINInputCellView.xib */; };
+		CD07BCDD2A290CEC0059A75B /* PINInputCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD07BCDC2A290CEC0059A75B /* PINInputCellView.swift */; };
+		CD1AF2002A24CA2500323898 /* TopUpContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1AF1FF2A24CA2500323898 /* TopUpContainerViewController.xib */; };
+		CD1AF2022A24E7B700323898 /* SnapCenterLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF2012A24E7B700323898 /* SnapCenterLayout.swift */; };
+		CD1AF2042A24E83500323898 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF2032A24E83500323898 /* UICollectionView+Extensions.swift */; };
+		CD1AF2062A24E87300323898 /* PromoCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1AF2052A24E87300323898 /* PromoCellView.xib */; };
+		CD1AF2082A24E8FC00323898 /* PaddingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF2072A24E8FC00323898 /* PaddingCollectionViewCell.swift */; };
+		CD1AF20B2A24EF8F00323898 /* PromoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF20A2A24EF8F00323898 /* PromoCellView.swift */; };
+		CD1AF20D2A24FC6900323898 /* PromoItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1AF20C2A24FC6900323898 /* PromoItemView.xib */; };
+		CD1AF20F2A24FCCF00323898 /* PromoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */; };
+		CD32B6DC2A29AFF3004410A6 /* VoucherAppliedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */; };
+		CD32B6DE2A29B010004410A6 /* VoucherAppliedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */; };
+		CD32B6E02A29B8B9004410A6 /* VoucherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6DF2A29B8B9004410A6 /* VoucherListViewController.swift */; };
+		CD32B6E22A29B8F0004410A6 /* VoucherItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */; };
+		CD32B6E42A29C0C0004410A6 /* VoucherItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */; };
+		CD32B6E62A29CBB7004410A6 /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */; };
+		CD32B6E82A29CF70004410A6 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6E72A29CF70004410A6 /* PaddingLabel.swift */; };
+		CD32B6EA2A29D39C004410A6 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6E92A29D39C004410A6 /* CustomView.swift */; };
+		CD3459462A24B92300139DC4 /* TopUpContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */; };
+		CD38338A2A26E9F0009897A2 /* PromoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */; };
+		CD38338B2A26E9F0009897A2 /* PromoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */; };
+		CD38338D2A26EB9D009897A2 /* TopUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38338C2A26EB9D009897A2 /* TopUpViewModel.swift */; };
+		CD9C51B22A23780400F7C42F /* MobileInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C51B12A23780400F7C42F /* MobileInputView.swift */; };
+		CD9C51B42A23781600F7C42F /* MobileInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C51B32A23781600F7C42F /* MobileInputView.xib */; };
+		CD9C51BD2A2390E100F7C42F /* PriceCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */; };
+		CD9C51BF2A2392DC00F7C42F /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C51BE2A2392DC00F7C42F /* InsetLabel.swift */; };
+		CD9C51C12A23949100F7C42F /* PriceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C51C02A23949100F7C42F /* PriceCellView.swift */; };
 		CDF625382A22537100133BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625372A22537100133BDD /* AppDelegate.swift */; };
-		CDF6253A2A22537100133BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625392A22537100133BDD /* SceneDelegate.swift */; };
-		CDF6253C2A22537100133BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6253B2A22537100133BDD /* ViewController.swift */; };
-		CDF6253F2A22537100133BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF6253D2A22537100133BDD /* Main.storyboard */; };
 		CDF625412A22537200133BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF625402A22537200133BDD /* Assets.xcassets */; };
 		CDF625442A22537200133BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF625422A22537200133BDD /* LaunchScreen.storyboard */; };
+		CDF6254F2A232B3400133BDD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6254E2A232B3400133BDD /* UIView+Extensions.swift */; };
+		CDF625532A232C0F00133BDD /* PaddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */; };
+		CDF625552A232D6800133BDD /* TopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625542A232D6800133BDD /* TopUpTableViewController.swift */; };
+		CDF625572A235E4600133BDD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625562A235E4600133BDD /* UIColor+Extensions.swift */; };
+		CDF625592A23633400133BDD /* SegmentedControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF625582A23633400133BDD /* SegmentedControlView.xib */; };
+		CDF6255D2A23665600133BDD /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6255C2A23665600133BDD /* SegmentedControlView.swift */; };
+		CDF6255F2A23701300133BDD /* SlidingSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6255E2A23701300133BDD /* SlidingSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43D62EC0E152A0184BFE11CD /* Pods-Kredivo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kredivo.debug.xcconfig"; path = "Target Support Files/Pods-Kredivo/Pods-Kredivo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC90EAE11B9317839AB9C294 /* Pods_Kredivo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kredivo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD07BCCA2A28D71D0059A75B /* MobileHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileHeaderView.xib; sourceTree = "<group>"; };
+		CD07BCCC2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPaymentViewController.swift; sourceTree = "<group>"; };
+		CD07BCCE2A28DEAC0059A75B /* MobileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileHeaderView.swift; sourceTree = "<group>"; };
+		CD07BCD02A28DF310059A75B /* DetailViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewCell.xib; sourceTree = "<group>"; };
+		CD07BCD22A28E31A0059A75B /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
+		CD07BCD42A28E63C0059A75B /* TextProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextProperties.swift; sourceTree = "<group>"; };
+		CD07BCD62A28FAAF0059A75B /* VoucherListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoucherListView.xib; sourceTree = "<group>"; };
+		CD07BCD82A28FF030059A75B /* VoucherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListView.swift; sourceTree = "<group>"; };
+		CD07BCDA2A290BD20059A75B /* PINInputCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PINInputCellView.xib; sourceTree = "<group>"; };
+		CD07BCDC2A290CEC0059A75B /* PINInputCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINInputCellView.swift; sourceTree = "<group>"; };
+		CD1AF1FF2A24CA2500323898 /* TopUpContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopUpContainerViewController.xib; sourceTree = "<group>"; };
+		CD1AF2012A24E7B700323898 /* SnapCenterLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCenterLayout.swift; sourceTree = "<group>"; };
+		CD1AF2032A24E83500323898 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		CD1AF2052A24E87300323898 /* PromoCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoCellView.xib; sourceTree = "<group>"; };
+		CD1AF2072A24E8FC00323898 /* PaddingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD1AF20A2A24EF8F00323898 /* PromoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCellView.swift; sourceTree = "<group>"; };
+		CD1AF20C2A24FC6900323898 /* PromoItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoItemView.xib; sourceTree = "<group>"; };
+		CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoItemView.swift; sourceTree = "<group>"; };
+		CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoucherAppliedView.xib; sourceTree = "<group>"; };
+		CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherAppliedView.swift; sourceTree = "<group>"; };
+		CD32B6DF2A29B8B9004410A6 /* VoucherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewController.swift; sourceTree = "<group>"; };
+		CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoucherItemViewCell.xib; sourceTree = "<group>"; };
+		CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherItemViewCell.swift; sourceTree = "<group>"; };
+		CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
+		CD32B6E72A29CF70004410A6 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		CD32B6E92A29D39C004410A6 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpContainerViewController.swift; sourceTree = "<group>"; };
+		CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoDetailViewController.swift; sourceTree = "<group>"; };
+		CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoDetailViewController.xib; sourceTree = "<group>"; };
+		CD38338C2A26EB9D009897A2 /* TopUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewModel.swift; sourceTree = "<group>"; };
+		CD9BE7CBCCE70AB2216F3EB7 /* Pods-Kredivo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kredivo.release.xcconfig"; path = "Target Support Files/Pods-Kredivo/Pods-Kredivo.release.xcconfig"; sourceTree = "<group>"; };
+		CD9C51B12A23780400F7C42F /* MobileInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileInputView.swift; sourceTree = "<group>"; };
+		CD9C51B32A23781600F7C42F /* MobileInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileInputView.xib; sourceTree = "<group>"; };
+		CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceCellView.xib; sourceTree = "<group>"; };
+		CD9C51BE2A2392DC00F7C42F /* InsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
+		CD9C51C02A23949100F7C42F /* PriceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCellView.swift; sourceTree = "<group>"; };
 		CDF625342A22537100133BDD /* Kredivo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kredivo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF625372A22537100133BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDF625392A22537100133BDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDF6253B2A22537100133BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDF6253E2A22537100133BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF625402A22537200133BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF625432A22537200133BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF625452A22537200133BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF6254E2A232B3400133BDD /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingTableViewCell.swift; sourceTree = "<group>"; };
+		CDF625542A232D6800133BDD /* TopUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpTableViewController.swift; sourceTree = "<group>"; };
+		CDF625562A235E4600133BDD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		CDF625582A23633400133BDD /* SegmentedControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedControlView.xib; sourceTree = "<group>"; };
+		CDF6255C2A23665600133BDD /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		CDF6255E2A23701300133BDD /* SlidingSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +113,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AF6E5422E57DA03745EBE5 /* Pods_Kredivo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74F97572A38706D52833706E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC90EAE11B9317839AB9C294 /* Pods_Kredivo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8D1FA22953E34F445EB078E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43D62EC0E152A0184BFE11CD /* Pods-Kredivo.debug.xcconfig */,
+				CD9BE7CBCCE70AB2216F3EB7 /* Pods-Kredivo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CDF6252B2A22537100133BDD = {
 			isa = PBXGroup;
 			children = (
 				CDF625362A22537100133BDD /* Kredivo */,
 				CDF625352A22537100133BDD /* Products */,
+				A8D1FA22953E34F445EB078E /* Pods */,
+				74F97572A38706D52833706E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +158,62 @@
 		CDF625362A22537100133BDD /* Kredivo */ = {
 			isa = PBXGroup;
 			children = (
+				CDF6254D2A2329B900133BDD /* Extensions */,
 				CDF625372A22537100133BDD /* AppDelegate.swift */,
-				CDF625392A22537100133BDD /* SceneDelegate.swift */,
-				CDF6253B2A22537100133BDD /* ViewController.swift */,
-				CDF6253D2A22537100133BDD /* Main.storyboard */,
+				CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */,
+				CD1AF1FF2A24CA2500323898 /* TopUpContainerViewController.xib */,
+				CDF625582A23633400133BDD /* SegmentedControlView.xib */,
+				CDF6255C2A23665600133BDD /* SegmentedControlView.swift */,
+				CD9C51B32A23781600F7C42F /* MobileInputView.xib */,
+				CD9C51B12A23780400F7C42F /* MobileInputView.swift */,
+				CD07BCCA2A28D71D0059A75B /* MobileHeaderView.xib */,
+				CD07BCCE2A28DEAC0059A75B /* MobileHeaderView.swift */,
+				CD07BCD02A28DF310059A75B /* DetailViewCell.xib */,
+				CD07BCD22A28E31A0059A75B /* DetailViewCell.swift */,
+				CD07BCD62A28FAAF0059A75B /* VoucherListView.xib */,
+				CD07BCD82A28FF030059A75B /* VoucherListView.swift */,
+				CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */,
+				CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */,
+				CD07BCDA2A290BD20059A75B /* PINInputCellView.xib */,
+				CD07BCDC2A290CEC0059A75B /* PINInputCellView.swift */,
+				CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */,
 				CDF625402A22537200133BDD /* Assets.xcassets */,
+				CD1AF20C2A24FC6900323898 /* PromoItemView.xib */,
+				CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */,
+				CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */,
+				CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */,
 				CDF625422A22537200133BDD /* LaunchScreen.storyboard */,
 				CDF625452A22537200133BDD /* Info.plist */,
+				CDF625542A232D6800133BDD /* TopUpTableViewController.swift */,
+				CD07BCCC2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift */,
+				CD32B6DF2A29B8B9004410A6 /* VoucherListViewController.swift */,
+				CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */,
+				CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */,
+				CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */,
+				CD9C51C02A23949100F7C42F /* PriceCellView.swift */,
+				CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */,
+				CD9C51BE2A2392DC00F7C42F /* InsetLabel.swift */,
+				CD38338C2A26EB9D009897A2 /* TopUpViewModel.swift */,
+				CD1AF2012A24E7B700323898 /* SnapCenterLayout.swift */,
+				CD1AF2052A24E87300323898 /* PromoCellView.xib */,
+				CD1AF20A2A24EF8F00323898 /* PromoCellView.swift */,
+				CD1AF2072A24E8FC00323898 /* PaddingCollectionViewCell.swift */,
+				CD07BCD42A28E63C0059A75B /* TextProperties.swift */,
+				CD32B6E72A29CF70004410A6 /* PaddingLabel.swift */,
+				CD32B6E92A29D39C004410A6 /* CustomView.swift */,
 			);
 			path = Kredivo;
+			sourceTree = "<group>";
+		};
+		CDF6254D2A2329B900133BDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDF625562A235E4600133BDD /* UIColor+Extensions.swift */,
+				CDF6254E2A232B3400133BDD /* UIView+Extensions.swift */,
+				CDF6255E2A23701300133BDD /* SlidingSegmentedControl.swift */,
+				CD1AF2032A24E83500323898 /* UICollectionView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDF625482A22537200133BDD /* Build configuration list for PBXNativeTarget "Kredivo" */;
 			buildPhases = (
+				AB13A668001EAE5EBAF808AF /* [CP] Check Pods Manifest.lock */,
 				CDF625302A22537100133BDD /* Sources */,
 				CDF625312A22537100133BDD /* Frameworks */,
 				CDF625322A22537100133BDD /* Resources */,
+				4D1FCEA6C294BDE1F344739A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +276,109 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1AF2002A24CA2500323898 /* TopUpContainerViewController.xib in Resources */,
+				CD32B6DC2A29AFF3004410A6 /* VoucherAppliedView.xib in Resources */,
+				CD07BCDB2A290BD20059A75B /* PINInputCellView.xib in Resources */,
+				CD07BCCB2A28D71D0059A75B /* MobileHeaderView.xib in Resources */,
+				CD1AF20D2A24FC6900323898 /* PromoItemView.xib in Resources */,
+				CD9C51BD2A2390E100F7C42F /* PriceCellView.xib in Resources */,
 				CDF625442A22537200133BDD /* LaunchScreen.storyboard in Resources */,
+				CD38338B2A26E9F0009897A2 /* PromoDetailViewController.xib in Resources */,
+				CDF625592A23633400133BDD /* SegmentedControlView.xib in Resources */,
+				CD32B6E22A29B8F0004410A6 /* VoucherItemViewCell.xib in Resources */,
 				CDF625412A22537200133BDD /* Assets.xcassets in Resources */,
-				CDF6253F2A22537100133BDD /* Main.storyboard in Resources */,
+				CD07BCD12A28DF310059A75B /* DetailViewCell.xib in Resources */,
+				CD1AF2062A24E87300323898 /* PromoCellView.xib in Resources */,
+				CD9C51B42A23781600F7C42F /* MobileInputView.xib in Resources */,
+				CD07BCD72A28FAAF0059A75B /* VoucherListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D1FCEA6C294BDE1F344739A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kredivo/Pods-Kredivo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kredivo/Pods-Kredivo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kredivo/Pods-Kredivo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB13A668001EAE5EBAF808AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kredivo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDF625302A22537100133BDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF6253C2A22537100133BDD /* ViewController.swift in Sources */,
+				CD32B6E62A29CBB7004410A6 /* PaymentDetailViewController.swift in Sources */,
+				CDF6255D2A23665600133BDD /* SegmentedControlView.swift in Sources */,
+				CD38338D2A26EB9D009897A2 /* TopUpViewModel.swift in Sources */,
+				CD9C51BF2A2392DC00F7C42F /* InsetLabel.swift in Sources */,
+				CD07BCCD2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift in Sources */,
+				CDF6254F2A232B3400133BDD /* UIView+Extensions.swift in Sources */,
+				CD07BCD92A28FF030059A75B /* VoucherListView.swift in Sources */,
+				CD07BCCF2A28DEAC0059A75B /* MobileHeaderView.swift in Sources */,
+				CDF6255F2A23701300133BDD /* SlidingSegmentedControl.swift in Sources */,
+				CD9C51C12A23949100F7C42F /* PriceCellView.swift in Sources */,
+				CD32B6E02A29B8B9004410A6 /* VoucherListViewController.swift in Sources */,
+				CD32B6E42A29C0C0004410A6 /* VoucherItemViewCell.swift in Sources */,
+				CD1AF20F2A24FCCF00323898 /* PromoItemView.swift in Sources */,
+				CD07BCD32A28E31A0059A75B /* DetailViewCell.swift in Sources */,
+				CD9C51B22A23780400F7C42F /* MobileInputView.swift in Sources */,
+				CD32B6EA2A29D39C004410A6 /* CustomView.swift in Sources */,
+				CD07BCD52A28E63C0059A75B /* TextProperties.swift in Sources */,
+				CD1AF2022A24E7B700323898 /* SnapCenterLayout.swift in Sources */,
 				CDF625382A22537100133BDD /* AppDelegate.swift in Sources */,
-				CDF6253A2A22537100133BDD /* SceneDelegate.swift in Sources */,
+				CD1AF2082A24E8FC00323898 /* PaddingCollectionViewCell.swift in Sources */,
+				CDF625532A232C0F00133BDD /* PaddingTableViewCell.swift in Sources */,
+				CD32B6E82A29CF70004410A6 /* PaddingLabel.swift in Sources */,
+				CDF625572A235E4600133BDD /* UIColor+Extensions.swift in Sources */,
+				CD32B6DE2A29B010004410A6 /* VoucherAppliedView.swift in Sources */,
+				CD1AF2042A24E83500323898 /* UICollectionView+Extensions.swift in Sources */,
+				CD07BCDD2A290CEC0059A75B /* PINInputCellView.swift in Sources */,
+				CD1AF20B2A24EF8F00323898 /* PromoCellView.swift in Sources */,
+				CDF625552A232D6800133BDD /* TopUpTableViewController.swift in Sources */,
+				CD38338A2A26E9F0009897A2 /* PromoDetailViewController.swift in Sources */,
+				CD3459462A24B92300139DC4 /* TopUpContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDF6253D2A22537100133BDD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDF6253E2A22537100133BDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDF625422A22537200133BDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +506,7 @@
 		};
 		CDF625492A22537200133BDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D62EC0E152A0184BFE11CD /* Pods-Kredivo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +517,10 @@
 				INFOPLIST_FILE = Kredivo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +528,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gorgom.Kredivo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CDF6254A2A22537200133BDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9BE7CBCCE70AB2216F3EB7 /* Pods-Kredivo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +550,10 @@
 				INFOPLIST_FILE = Kredivo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +561,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gorgom.Kredivo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
