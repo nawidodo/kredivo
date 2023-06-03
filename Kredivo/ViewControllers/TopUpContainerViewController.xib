@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,11 +21,24 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dtP-fH-7Im" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                    <rect key="frame" x="0.0" y="47" width="390" height="60"/>
+                    <color key="backgroundColor" systemColor="linkColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="WYm-c4-iQN"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0zC-Lh-diG">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDT-3w-zE4">
-                    <rect key="frame" x="0.0" y="126" width="390" height="718"/>
+                    <rect key="frame" x="0.0" y="107" width="390" height="737"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ub1-Vd-Okb">
-                            <rect key="frame" x="0.0" y="0.0" width="390" height="681"/>
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="699"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
                     </subviews>
@@ -39,27 +53,15 @@
                     <viewLayoutGuide key="contentLayoutGuide" id="SN5-b6-u3O"/>
                     <viewLayoutGuide key="frameLayoutGuide" id="Kbt-n6-rw7"/>
                 </scrollView>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dtP-fH-7Im" customClass="ButtonBarView" customModule="XLPagerTabStrip">
-                    <rect key="frame" x="0.0" y="66" width="390" height="60"/>
-                    <color key="backgroundColor" systemColor="linkColor"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="60" id="WYm-c4-iQN"/>
-                    </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0zC-Lh-diG">
-                        <size key="itemSize" width="128" height="128"/>
-                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                    </collectionViewFlowLayout>
-                </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NFK-px-ULQ">
-                    <rect key="frame" x="0.0" y="125" width="390" height="1"/>
+                    <rect key="frame" x="0.0" y="106" width="390" height="1"/>
                     <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="NST-pe-i0F"/>
                     </constraints>
                 </view>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="SuQ-bL-jYl"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="pDT-3w-zE4" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="0Uf-Xa-o83"/>
@@ -67,7 +69,7 @@
                 <constraint firstItem="dtP-fH-7Im" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9s8-dy-aNp"/>
                 <constraint firstItem="pDT-3w-zE4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HHV-hf-NMc"/>
                 <constraint firstAttribute="trailing" secondItem="pDT-3w-zE4" secondAttribute="trailing" id="KDJ-8r-x7n"/>
-                <constraint firstItem="dtP-fH-7Im" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="66" id="TEf-lo-wNn"/>
+                <constraint firstItem="dtP-fH-7Im" firstAttribute="top" secondItem="SuQ-bL-jYl" secondAttribute="top" id="S3o-gJ-DYC"/>
                 <constraint firstAttribute="trailing" secondItem="dtP-fH-7Im" secondAttribute="trailing" id="Yih-rZ-J2c"/>
                 <constraint firstItem="NFK-px-ULQ" firstAttribute="trailing" secondItem="dtP-fH-7Im" secondAttribute="trailing" id="fP0-4G-9xj"/>
                 <constraint firstItem="pDT-3w-zE4" firstAttribute="top" secondItem="dtP-fH-7Im" secondAttribute="bottom" id="n2I-9m-qqg"/>

@@ -226,9 +226,9 @@
 				CD617DCD2A2B538200CD1A6A /* BorderProperties.swift */,
 				CD617DD12A2B53DD00CD1A6A /* ProductResponse.swift */,
 				CD617DD52A2B56EA00CD1A6A /* VoucherResponse.swift */,
+				CD617DDB2A2B593B00CD1A6A /* TransactionResponse.swift */,
 				CD617DE52A2B89E000CD1A6A /* Order.swift */,
 				CD617DE92A2BA15600CD1A6A /* Payment.swift */,
-				CD617DDB2A2B593B00CD1A6A /* TransactionResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
