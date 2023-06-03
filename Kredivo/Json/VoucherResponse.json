@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "name": "VOUCHERPROMO",
+      "number": 4,
+      "percentage": 10,
+      "iterator": 0,
+      "image_url": "https://placehold.co/1000x400/239CEC/FFFFFF/png",
+      "min_transaction_amount": 50000,
+      "end_date": "1682787599",
+      "id": 4111,
+      "terms_and_condition": "• Promo berlaku untuk transaksi yang dilakukan\ndiaplikasi terbaru Bukalapak.\n\n• Gunakan kode BIRTHDAY9 untuk dapatkan\ncashback sebesar 3%.\n\n• Promo hanya berlaku untuk transaksi yang\nmenggunakan metode pengiriman J&T Express\ndan Ninja Xpress (REG dan FAST).\n\n• Setiap pengguna bisa menggunakan promo\nsebanyak 1 (Satu) kali per hari dan maksimal 2 (dua)\nkali selama periode Promo.\n\n• Promo bisa digunakan untuk belanja produk\nkategori apa saja yang ada di Bukalapak, kecuali\nkategori tiket dan voucher, produk virtual (pulsa,\npaket data, voucher game, listrik prabayar &\npascabayar, tiket event, tiket pesawat, tiket kereta,\npembayaran zakat online, pembayaran tagihan\nlistrik, air PDAM, dan BPJS) dan produk keuangan\n(BukaEmas dan BukaReksa).",
+      "how_to_use": "Discount 20% at Kedai Hape Original, Mall Kota Kasablanka",
+      "usage_count": 2,
+      "start_date": "1680282000",
+      "Max_discount": 20000,
+      "voucher_code": "ACBDED88"
+    },
+    {
+      "name": "VOUCHERZEROPERCENT",
+      "number": 4,
+      "percentage": 0,
+      "iterator": 1,
+      "image_url": "https://placehold.co/1000x400/239CEC/FFFFFF/png",
+      "min_transaction_amount": 0,
+      "end_date": "1682096399",
+      "id": 4112,
+      "terms_and_condition": "• Promo berlaku untuk transaksi yang dilakukan\ndiaplikasi terbaru Bukalapak.\n\n• Gunakan kode BIRTHDAY9 untuk dapatkan\ncashback sebesar 3%.\n\n• Promo hanya berlaku untuk transaksi yang\nmenggunakan metode pengiriman J&T Express\ndan Ninja Xpress (REG dan FAST).\n\n• Setiap pengguna bisa menggunakan promo\nsebanyak 1 (Satu) kali per hari dan maksimal 2 (dua)\nkali selama periode Promo.\n\n• Promo bisa digunakan untuk belanja produk\nkategori apa saja yang ada di Bukalapak, kecuali\nkategori tiket dan voucher, produk virtual (pulsa,\npaket data, voucher game, listrik prabayar &\npascabayar, tiket event, tiket pesawat, tiket kereta,\npembayaran zakat online, pembayaran tagihan\nlistrik, air PDAM, dan BPJS) dan produk keuangan\n(BukaEmas dan BukaReksa).",
+      "how_to_use": "Discount 20% at Kedai Hape Original, Mall Kota Kasablanka",
+      "usage_count": 0,
+      "start_date": "1680195600",
+      "max_discount": 0,
+      "voucher_code": "ACBDED89"
+    }
+  ],
+  "status": "OK"
+}

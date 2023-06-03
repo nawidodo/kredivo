@@ -14,15 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
         makeRootController()
         return true
     }
 
     private func makeRootController() {
         window = UIWindow(frame: UIScreen.main.bounds)
-
-        let topUpVC: TopUpContainerViewController = .init()
-        let rootNC: UINavigationController = .init(rootViewController: topUpVC)
+        
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = .kredivoBlue
@@ -30,8 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
         UINavigationBar.appearance().compactAppearance = appearance
-        topUpVC.title = "Top Up"
-        window?.rootViewController = rootNC
+        window?.rootViewController = TopUpScreenFactory().make()
         window?.makeKeyAndVisible()
 
         guard let frame = window?

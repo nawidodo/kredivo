@@ -28,7 +28,7 @@
 		CD1AF20F2A24FCCF00323898 /* PromoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */; };
 		CD32B6DC2A29AFF3004410A6 /* VoucherAppliedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */; };
 		CD32B6DE2A29B010004410A6 /* VoucherAppliedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */; };
-		CD32B6E02A29B8B9004410A6 /* VoucherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6DF2A29B8B9004410A6 /* VoucherListViewController.swift */; };
+		CD32B6E02A29B8B9004410A6 /* VouchersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6DF2A29B8B9004410A6 /* VouchersViewController.swift */; };
 		CD32B6E22A29B8F0004410A6 /* VoucherItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */; };
 		CD32B6E42A29C0C0004410A6 /* VoucherItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */; };
 		CD32B6E62A29CBB7004410A6 /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */; };
@@ -37,11 +37,25 @@
 		CD3459462A24B92300139DC4 /* TopUpContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */; };
 		CD38338A2A26E9F0009897A2 /* PromoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */; };
 		CD38338B2A26E9F0009897A2 /* PromoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */; };
-		CD38338D2A26EB9D009897A2 /* TopUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38338C2A26EB9D009897A2 /* TopUpViewModel.swift */; };
+		CD617DCB2A2B522200CD1A6A /* ProductResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CD617DCA2A2B522200CD1A6A /* ProductResponse.json */; };
+		CD617DCE2A2B538200CD1A6A /* BorderProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DCD2A2B538200CD1A6A /* BorderProperties.swift */; };
+		CD617DD02A2B539B00CD1A6A /* DetailProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DCF2A2B539B00CD1A6A /* DetailProperties.swift */; };
+		CD617DD22A2B53DD00CD1A6A /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DD12A2B53DD00CD1A6A /* ProductResponse.swift */; };
+		CD617DD42A2B543F00CD1A6A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DD32A2B543E00CD1A6A /* APIService.swift */; };
+		CD617DD62A2B56EA00CD1A6A /* VoucherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DD52A2B56EA00CD1A6A /* VoucherResponse.swift */; };
+		CD617DD82A2B579D00CD1A6A /* VoucherResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CD617DD72A2B579D00CD1A6A /* VoucherResponse.json */; };
+		CD617DDA2A2B592400CD1A6A /* TransactionResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CD617DD92A2B592400CD1A6A /* TransactionResponse.json */; };
+		CD617DDC2A2B593B00CD1A6A /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DDB2A2B593B00CD1A6A /* TransactionResponse.swift */; };
+		CD617DDE2A2B5A5C00CD1A6A /* TopUpScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DDD2A2B5A5C00CD1A6A /* TopUpScreenFactory.swift */; };
+		CD617DE02A2B692000CD1A6A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DDF2A2B692000CD1A6A /* String+Extensions.swift */; };
+		CD617DE22A2B6E3400CD1A6A /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DE12A2B6E3400CD1A6A /* Double+Extensions.swift */; };
+		CD617DE42A2B803B00CD1A6A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DE32A2B803B00CD1A6A /* UIViewController+Extensions.swift */; };
+		CD617DE62A2B89E000CD1A6A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DE52A2B89E000CD1A6A /* Order.swift */; };
+		CD617DE82A2B92EE00CD1A6A /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DE72A2B92EE00CD1A6A /* Inject.swift */; };
+		CD617DEA2A2BA15600CD1A6A /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DE92A2BA15600CD1A6A /* Payment.swift */; };
 		CD9C51B22A23780400F7C42F /* MobileInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C51B12A23780400F7C42F /* MobileInputView.swift */; };
 		CD9C51B42A23781600F7C42F /* MobileInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C51B32A23781600F7C42F /* MobileInputView.xib */; };
 		CD9C51BD2A2390E100F7C42F /* PriceCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */; };
-		CD9C51BF2A2392DC00F7C42F /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C51BE2A2392DC00F7C42F /* InsetLabel.swift */; };
 		CD9C51C12A23949100F7C42F /* PriceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C51C02A23949100F7C42F /* PriceCellView.swift */; };
 		CDF625382A22537100133BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625372A22537100133BDD /* AppDelegate.swift */; };
 		CDF625412A22537200133BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF625402A22537200133BDD /* Assets.xcassets */; };
@@ -50,8 +64,6 @@
 		CDF625532A232C0F00133BDD /* PaddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */; };
 		CDF625552A232D6800133BDD /* TopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625542A232D6800133BDD /* TopUpTableViewController.swift */; };
 		CDF625572A235E4600133BDD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF625562A235E4600133BDD /* UIColor+Extensions.swift */; };
-		CDF625592A23633400133BDD /* SegmentedControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF625582A23633400133BDD /* SegmentedControlView.xib */; };
-		CDF6255D2A23665600133BDD /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6255C2A23665600133BDD /* SegmentedControlView.swift */; };
 		CDF6255F2A23701300133BDD /* SlidingSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6255E2A23701300133BDD /* SlidingSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +90,7 @@
 		CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoItemView.swift; sourceTree = "<group>"; };
 		CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoucherAppliedView.xib; sourceTree = "<group>"; };
 		CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherAppliedView.swift; sourceTree = "<group>"; };
-		CD32B6DF2A29B8B9004410A6 /* VoucherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewController.swift; sourceTree = "<group>"; };
+		CD32B6DF2A29B8B9004410A6 /* VouchersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VouchersViewController.swift; sourceTree = "<group>"; };
 		CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoucherItemViewCell.xib; sourceTree = "<group>"; };
 		CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherItemViewCell.swift; sourceTree = "<group>"; };
 		CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
@@ -87,12 +99,26 @@
 		CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpContainerViewController.swift; sourceTree = "<group>"; };
 		CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoDetailViewController.swift; sourceTree = "<group>"; };
 		CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoDetailViewController.xib; sourceTree = "<group>"; };
-		CD38338C2A26EB9D009897A2 /* TopUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewModel.swift; sourceTree = "<group>"; };
+		CD617DCA2A2B522200CD1A6A /* ProductResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProductResponse.json; sourceTree = "<group>"; };
+		CD617DCD2A2B538200CD1A6A /* BorderProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderProperties.swift; sourceTree = "<group>"; };
+		CD617DCF2A2B539B00CD1A6A /* DetailProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProperties.swift; sourceTree = "<group>"; };
+		CD617DD12A2B53DD00CD1A6A /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		CD617DD32A2B543E00CD1A6A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CD617DD52A2B56EA00CD1A6A /* VoucherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherResponse.swift; sourceTree = "<group>"; };
+		CD617DD72A2B579D00CD1A6A /* VoucherResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VoucherResponse.json; sourceTree = "<group>"; };
+		CD617DD92A2B592400CD1A6A /* TransactionResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TransactionResponse.json; sourceTree = "<group>"; };
+		CD617DDB2A2B593B00CD1A6A /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponse.swift; sourceTree = "<group>"; };
+		CD617DDD2A2B5A5C00CD1A6A /* TopUpScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpScreenFactory.swift; sourceTree = "<group>"; };
+		CD617DDF2A2B692000CD1A6A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CD617DE12A2B6E3400CD1A6A /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		CD617DE32A2B803B00CD1A6A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		CD617DE52A2B89E000CD1A6A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CD617DE72A2B92EE00CD1A6A /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		CD617DE92A2BA15600CD1A6A /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		CD9BE7CBCCE70AB2216F3EB7 /* Pods-Kredivo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kredivo.release.xcconfig"; path = "Target Support Files/Pods-Kredivo/Pods-Kredivo.release.xcconfig"; sourceTree = "<group>"; };
 		CD9C51B12A23780400F7C42F /* MobileInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileInputView.swift; sourceTree = "<group>"; };
 		CD9C51B32A23781600F7C42F /* MobileInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileInputView.xib; sourceTree = "<group>"; };
 		CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceCellView.xib; sourceTree = "<group>"; };
-		CD9C51BE2A2392DC00F7C42F /* InsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
 		CD9C51C02A23949100F7C42F /* PriceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCellView.swift; sourceTree = "<group>"; };
 		CDF625342A22537100133BDD /* Kredivo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kredivo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF625372A22537100133BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,8 +129,6 @@
 		CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingTableViewCell.swift; sourceTree = "<group>"; };
 		CDF625542A232D6800133BDD /* TopUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpTableViewController.swift; sourceTree = "<group>"; };
 		CDF625562A235E4600133BDD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		CDF625582A23633400133BDD /* SegmentedControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedControlView.xib; sourceTree = "<group>"; };
-		CDF6255C2A23665600133BDD /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 		CDF6255E2A23701300133BDD /* SlidingSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +161,88 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CD32B6EB2A29F07C004410A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */,
+				CD1AF1FF2A24CA2500323898 /* TopUpContainerViewController.xib */,
+				CDF625542A232D6800133BDD /* TopUpTableViewController.swift */,
+				CD07BCCC2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift */,
+				CD32B6DF2A29B8B9004410A6 /* VouchersViewController.swift */,
+				CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */,
+				CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */,
+				CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD617DCC2A2B531500CD1A6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD9C51B32A23781600F7C42F /* MobileInputView.xib */,
+				CD9C51B12A23780400F7C42F /* MobileInputView.swift */,
+				CD07BCCA2A28D71D0059A75B /* MobileHeaderView.xib */,
+				CD07BCCE2A28DEAC0059A75B /* MobileHeaderView.swift */,
+				CD07BCD02A28DF310059A75B /* DetailViewCell.xib */,
+				CD07BCD22A28E31A0059A75B /* DetailViewCell.swift */,
+				CD07BCD62A28FAAF0059A75B /* VoucherListView.xib */,
+				CD07BCD82A28FF030059A75B /* VoucherListView.swift */,
+				CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */,
+				CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */,
+				CD07BCDA2A290BD20059A75B /* PINInputCellView.xib */,
+				CD07BCDC2A290CEC0059A75B /* PINInputCellView.swift */,
+				CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */,
+				CD1AF2072A24E8FC00323898 /* PaddingCollectionViewCell.swift */,
+				CD1AF20C2A24FC6900323898 /* PromoItemView.xib */,
+				CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */,
+				CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */,
+				CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */,
+				CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */,
+				CD9C51C02A23949100F7C42F /* PriceCellView.swift */,
+				CD1AF2052A24E87300323898 /* PromoCellView.xib */,
+				CD1AF20A2A24EF8F00323898 /* PromoCellView.swift */,
+				CD1AF2012A24E7B700323898 /* SnapCenterLayout.swift */,
+				CD32B6E72A29CF70004410A6 /* PaddingLabel.swift */,
+				CD32B6E92A29D39C004410A6 /* CustomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD617DEB2A2BAD6100CD1A6A /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CD617DCA2A2B522200CD1A6A /* ProductResponse.json */,
+				CD617DD72A2B579D00CD1A6A /* VoucherResponse.json */,
+				CD617DD92A2B592400CD1A6A /* TransactionResponse.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CD617DEC2A2BAD8000CD1A6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD07BCD42A28E63C0059A75B /* TextProperties.swift */,
+				CD617DCF2A2B539B00CD1A6A /* DetailProperties.swift */,
+				CD617DCD2A2B538200CD1A6A /* BorderProperties.swift */,
+				CD617DD12A2B53DD00CD1A6A /* ProductResponse.swift */,
+				CD617DD52A2B56EA00CD1A6A /* VoucherResponse.swift */,
+				CD617DE52A2B89E000CD1A6A /* Order.swift */,
+				CD617DE92A2BA15600CD1A6A /* Payment.swift */,
+				CD617DDB2A2B593B00CD1A6A /* TransactionResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD617DED2A2BADB000CD1A6A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD617DE72A2B92EE00CD1A6A /* Inject.swift */,
+				CD617DD32A2B543E00CD1A6A /* APIService.swift */,
+				CD617DDD2A2B5A5C00CD1A6A /* TopUpScreenFactory.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		CDF6252B2A22537100133BDD = {
 			isa = PBXGroup;
 			children = (
@@ -158,49 +264,16 @@
 		CDF625362A22537100133BDD /* Kredivo */ = {
 			isa = PBXGroup;
 			children = (
-				CDF6254D2A2329B900133BDD /* Extensions */,
 				CDF625372A22537100133BDD /* AppDelegate.swift */,
-				CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */,
-				CD1AF1FF2A24CA2500323898 /* TopUpContainerViewController.xib */,
-				CDF625582A23633400133BDD /* SegmentedControlView.xib */,
-				CDF6255C2A23665600133BDD /* SegmentedControlView.swift */,
-				CD9C51B32A23781600F7C42F /* MobileInputView.xib */,
-				CD9C51B12A23780400F7C42F /* MobileInputView.swift */,
-				CD07BCCA2A28D71D0059A75B /* MobileHeaderView.xib */,
-				CD07BCCE2A28DEAC0059A75B /* MobileHeaderView.swift */,
-				CD07BCD02A28DF310059A75B /* DetailViewCell.xib */,
-				CD07BCD22A28E31A0059A75B /* DetailViewCell.swift */,
-				CD07BCD62A28FAAF0059A75B /* VoucherListView.xib */,
-				CD07BCD82A28FF030059A75B /* VoucherListView.swift */,
-				CD32B6DB2A29AFF3004410A6 /* VoucherAppliedView.xib */,
-				CD32B6DD2A29B010004410A6 /* VoucherAppliedView.swift */,
-				CD07BCDA2A290BD20059A75B /* PINInputCellView.xib */,
-				CD07BCDC2A290CEC0059A75B /* PINInputCellView.swift */,
-				CDF625522A232C0F00133BDD /* PaddingTableViewCell.swift */,
+				CD617DEC2A2BAD8000CD1A6A /* Models */,
+				CD32B6EB2A29F07C004410A6 /* ViewControllers */,
+				CD617DCC2A2B531500CD1A6A /* Views */,
+				CDF6254D2A2329B900133BDD /* Extensions */,
+				CD617DEB2A2BAD6100CD1A6A /* Json */,
+				CD617DED2A2BADB000CD1A6A /* Service */,
 				CDF625402A22537200133BDD /* Assets.xcassets */,
-				CD1AF20C2A24FC6900323898 /* PromoItemView.xib */,
-				CD1AF20E2A24FCCF00323898 /* PromoItemView.swift */,
-				CD32B6E12A29B8F0004410A6 /* VoucherItemViewCell.xib */,
-				CD32B6E32A29C0C0004410A6 /* VoucherItemViewCell.swift */,
 				CDF625422A22537200133BDD /* LaunchScreen.storyboard */,
 				CDF625452A22537200133BDD /* Info.plist */,
-				CDF625542A232D6800133BDD /* TopUpTableViewController.swift */,
-				CD07BCCC2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift */,
-				CD32B6DF2A29B8B9004410A6 /* VoucherListViewController.swift */,
-				CD32B6E52A29CBB7004410A6 /* PaymentDetailViewController.swift */,
-				CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */,
-				CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */,
-				CD9C51C02A23949100F7C42F /* PriceCellView.swift */,
-				CD9C51BC2A2390E100F7C42F /* PriceCellView.xib */,
-				CD9C51BE2A2392DC00F7C42F /* InsetLabel.swift */,
-				CD38338C2A26EB9D009897A2 /* TopUpViewModel.swift */,
-				CD1AF2012A24E7B700323898 /* SnapCenterLayout.swift */,
-				CD1AF2052A24E87300323898 /* PromoCellView.xib */,
-				CD1AF20A2A24EF8F00323898 /* PromoCellView.swift */,
-				CD1AF2072A24E8FC00323898 /* PaddingCollectionViewCell.swift */,
-				CD07BCD42A28E63C0059A75B /* TextProperties.swift */,
-				CD32B6E72A29CF70004410A6 /* PaddingLabel.swift */,
-				CD32B6E92A29D39C004410A6 /* CustomView.swift */,
 			);
 			path = Kredivo;
 			sourceTree = "<group>";
@@ -212,6 +285,9 @@
 				CDF6254E2A232B3400133BDD /* UIView+Extensions.swift */,
 				CDF6255E2A23701300133BDD /* SlidingSegmentedControl.swift */,
 				CD1AF2032A24E83500323898 /* UICollectionView+Extensions.swift */,
+				CD617DDF2A2B692000CD1A6A /* String+Extensions.swift */,
+				CD617DE12A2B6E3400CD1A6A /* Double+Extensions.swift */,
+				CD617DE32A2B803B00CD1A6A /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,10 +357,12 @@
 				CD07BCDB2A290BD20059A75B /* PINInputCellView.xib in Resources */,
 				CD07BCCB2A28D71D0059A75B /* MobileHeaderView.xib in Resources */,
 				CD1AF20D2A24FC6900323898 /* PromoItemView.xib in Resources */,
+				CD617DDA2A2B592400CD1A6A /* TransactionResponse.json in Resources */,
 				CD9C51BD2A2390E100F7C42F /* PriceCellView.xib in Resources */,
 				CDF625442A22537200133BDD /* LaunchScreen.storyboard in Resources */,
+				CD617DD82A2B579D00CD1A6A /* VoucherResponse.json in Resources */,
 				CD38338B2A26E9F0009897A2 /* PromoDetailViewController.xib in Resources */,
-				CDF625592A23633400133BDD /* SegmentedControlView.xib in Resources */,
+				CD617DCB2A2B522200CD1A6A /* ProductResponse.json in Resources */,
 				CD32B6E22A29B8F0004410A6 /* VoucherItemViewCell.xib in Resources */,
 				CDF625412A22537200133BDD /* Assets.xcassets in Resources */,
 				CD07BCD12A28DF310059A75B /* DetailViewCell.xib in Resources */,
@@ -343,24 +421,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD617DDC2A2B593B00CD1A6A /* TransactionResponse.swift in Sources */,
 				CD32B6E62A29CBB7004410A6 /* PaymentDetailViewController.swift in Sources */,
-				CDF6255D2A23665600133BDD /* SegmentedControlView.swift in Sources */,
-				CD38338D2A26EB9D009897A2 /* TopUpViewModel.swift in Sources */,
-				CD9C51BF2A2392DC00F7C42F /* InsetLabel.swift in Sources */,
 				CD07BCCD2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift in Sources */,
 				CDF6254F2A232B3400133BDD /* UIView+Extensions.swift in Sources */,
 				CD07BCD92A28FF030059A75B /* VoucherListView.swift in Sources */,
 				CD07BCCF2A28DEAC0059A75B /* MobileHeaderView.swift in Sources */,
 				CDF6255F2A23701300133BDD /* SlidingSegmentedControl.swift in Sources */,
+				CD617DE42A2B803B00CD1A6A /* UIViewController+Extensions.swift in Sources */,
+				CD617DD22A2B53DD00CD1A6A /* ProductResponse.swift in Sources */,
 				CD9C51C12A23949100F7C42F /* PriceCellView.swift in Sources */,
-				CD32B6E02A29B8B9004410A6 /* VoucherListViewController.swift in Sources */,
+				CD32B6E02A29B8B9004410A6 /* VouchersViewController.swift in Sources */,
+				CD617DCE2A2B538200CD1A6A /* BorderProperties.swift in Sources */,
 				CD32B6E42A29C0C0004410A6 /* VoucherItemViewCell.swift in Sources */,
+				CD617DE22A2B6E3400CD1A6A /* Double+Extensions.swift in Sources */,
+				CD617DEA2A2BA15600CD1A6A /* Payment.swift in Sources */,
 				CD1AF20F2A24FCCF00323898 /* PromoItemView.swift in Sources */,
 				CD07BCD32A28E31A0059A75B /* DetailViewCell.swift in Sources */,
 				CD9C51B22A23780400F7C42F /* MobileInputView.swift in Sources */,
+				CD617DE82A2B92EE00CD1A6A /* Inject.swift in Sources */,
+				CD617DE02A2B692000CD1A6A /* String+Extensions.swift in Sources */,
 				CD32B6EA2A29D39C004410A6 /* CustomView.swift in Sources */,
 				CD07BCD52A28E63C0059A75B /* TextProperties.swift in Sources */,
+				CD617DD02A2B539B00CD1A6A /* DetailProperties.swift in Sources */,
 				CD1AF2022A24E7B700323898 /* SnapCenterLayout.swift in Sources */,
+				CD617DE62A2B89E000CD1A6A /* Order.swift in Sources */,
 				CDF625382A22537100133BDD /* AppDelegate.swift in Sources */,
 				CD1AF2082A24E8FC00323898 /* PaddingCollectionViewCell.swift in Sources */,
 				CDF625532A232C0F00133BDD /* PaddingTableViewCell.swift in Sources */,
@@ -369,6 +454,9 @@
 				CD32B6DE2A29B010004410A6 /* VoucherAppliedView.swift in Sources */,
 				CD1AF2042A24E83500323898 /* UICollectionView+Extensions.swift in Sources */,
 				CD07BCDD2A290CEC0059A75B /* PINInputCellView.swift in Sources */,
+				CD617DD42A2B543F00CD1A6A /* APIService.swift in Sources */,
+				CD617DD62A2B56EA00CD1A6A /* VoucherResponse.swift in Sources */,
+				CD617DDE2A2B5A5C00CD1A6A /* TopUpScreenFactory.swift in Sources */,
 				CD1AF20B2A24EF8F00323898 /* PromoCellView.swift in Sources */,
 				CDF625552A232D6800133BDD /* TopUpTableViewController.swift in Sources */,
 				CD38338A2A26E9F0009897A2 /* PromoDetailViewController.swift in Sources */,
