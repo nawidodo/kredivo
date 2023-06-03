@@ -20,7 +20,7 @@ class PromoDetailViewController:
     @IBAction func didTapCopy(_ sender: UIButton) {
         let pasteboard = UIPasteboard.general
         pasteboard.string = promoCodeLabel.text
-        let message = "Promo code '\(pasteboard.string ?? "")' has been copied to the clipboard."
+        let message = "Voucher code '\(pasteboard.string ?? "")' has been copied to the clipboard."
         showMessage(message: message)
     }
 
