@@ -49,14 +49,14 @@ class TopUpContainerViewController: ButtonBarPagerTabStripViewController {
     // MARK: - PagerTabStripDataSource
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
 
-        let service = APIService()
+        let service: APIService = .init()
 
-        let child1 = TopUpTableViewController()
+        let child1: TopUpTableViewController = .init()
         child1.tabTitle = "Pulsa"
         child1.router = router
         child1.service = service
 
-        let child2 = TopUpTableViewController()
+        let child2: TopUpTableViewController = .init()
         child2.tabTitle = "Data Package"
         child2.router = router
         child2.service = service

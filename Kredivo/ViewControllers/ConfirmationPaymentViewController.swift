@@ -247,41 +247,41 @@ extension ConfirmationPaymentViewController: UITableViewDataSource {
         case .mobileHeader:
             return createMobileHeaderSection(indexPath: indexPath)
         case .paymentDetail:
-            let prop = TextProperties(text: "Rincian Pembayaran", color: .black, size: 16, weight: .medium)
+            let prop: TextProperties = .init(text: "Rincian Pembayaran", color: .black, size: 16, weight: .medium)
             return createTitleSection(indexPath: indexPath, properties: prop)
         case .phoneNumber:
             let titleText = "\(order.product.label) (\(order.phoneNumber))"
-            let title = TextProperties(text: titleText, color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: order.product.price.toCurrency(), color: .black, size: 14, weight: .regular)
-            let properties = DetailProperties(title: title, content: content, border: nil)
+            let title: TextProperties = .init(text: titleText, color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: order.product.price.toCurrency(), color: .black, size: 14, weight: .regular)
+            let properties: DetailProperties = .init(title: title, content: content, border: nil)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .additionalCost:
-            let title = TextProperties(text: "Biaya Layanan", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: "Rp490", color: .black, size: 14, weight: .regular)
-            let properties = DetailProperties(title: title, content: content, border: nil)
+            let title: TextProperties = .init(text: "Biaya Layanan", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: "Rp490", color: .black, size: 14, weight: .regular)
+            let properties: DetailProperties = .init(title: title, content: content, border: nil)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .discount:
-            let title = TextProperties(text: "Diskon Tambahan", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: "Rp1.000", color: .black, size: 14, weight: .regular)
+            let title: TextProperties = .init(text: "Diskon Tambahan", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: "Rp1.000", color: .black, size: 14, weight: .regular)
             let border = BorderProperties(edges: [.bottom], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .kredivoDiscount:
-            let title = TextProperties(text: "Kredivo Diskon", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: "-Rp0", color: .black, size: 14, weight: .regular)
+            let title: TextProperties = .init(text: "Kredivo Diskon", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: "-Rp0", color: .black, size: 14, weight: .regular)
             let border = BorderProperties(edges: [.bottom], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .subtotal:
-            let title = TextProperties(text: "Subtotal", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: order.product.price.toCurrency(), color: .black, size: 14, weight: .regular)
+            let title: TextProperties = .init(text: "Subtotal", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: order.product.price.toCurrency(), color: .black, size: 14, weight: .regular)
             let border = BorderProperties(edges: [.bottom], color: UIColor.black.withAlphaComponent(0.1), thickness: 1, isDashPattern: true)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .paymentTerm:
-            let title = TextProperties(text: "Bayar dalam 30 hari", color: .black, size: 14, weight: .bold)
-            let content = TextProperties(text: order.product.price.toCurrency(), color: .kredivoOrange, size: 14, weight: .bold)
-            let properties = DetailProperties(title: title, content: content, border: nil)
+            let title: TextProperties = .init(text: "Bayar dalam 30 hari", color: .black, size: 14, weight: .bold)
+            let content: TextProperties = .init(text: order.product.price.toCurrency(), color: .kredivoOrange, size: 14, weight: .bold)
+            let properties: DetailProperties = .init(title: title, content: content, border: nil)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .voucherList:
             return createVoucherSection(indexPath: indexPath)
@@ -290,8 +290,8 @@ extension ConfirmationPaymentViewController: UITableViewDataSource {
         case .pinInput:
             return createPINSection(indexPath: indexPath)
         case .termAndCondition:
-            let attributedText = NSMutableAttributedString(string: "Dengan melanjutkan saya setuju dengan ", attributes: [.foregroundColor: UIColor.black.withAlphaComponent(0.5), .font: UIFont.systemFont(ofSize: 12)])
-            let suffix = NSMutableAttributedString(string: "Perjanjian Pinjaman Kredivo", attributes: [.font: UIFont.systemFont(ofSize: 12), .foregroundColor: UIColor.kredivoBlue])
+            let attributedText: NSMutableAttributedString = .init(string: "Dengan melanjutkan saya setuju dengan ", attributes: [.foregroundColor: UIColor.black.withAlphaComponent(0.5), .font: UIFont.systemFont(ofSize: 12)])
+            let suffix: NSMutableAttributedString = .init(string: "Perjanjian Pinjaman Kredivo", attributes: [.font: UIFont.systemFont(ofSize: 12), .foregroundColor: UIColor.kredivoBlue])
             attributedText.append(suffix)
             return createTitleSection(indexPath: indexPath, attributes: attributedText)
         }

@@ -186,8 +186,8 @@ extension TopUpTableViewController: PromoCellViewDelegate {
 
 extension TopUpTableViewController: PriceCellViewDelegate {
     func didSelect(product: Product) {
-        let order = Order(phoneNumber: phoneNumber, product: product)
-        let vc = ConfirmationPaymentViewController(order: order)
+        let order: Order = .init(phoneNumber: phoneNumber, product: product)
+        let vc: ConfirmationPaymentViewController = .init(order: order)
         vc.service = service
         router?.pushViewController(vc, animated: true)
     }

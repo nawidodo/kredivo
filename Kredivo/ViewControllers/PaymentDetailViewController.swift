@@ -108,7 +108,7 @@ extension PaymentDetailViewController: UITableViewDataSource {
     private func createMobileHeaderSection(indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MobileHeaderView", for: indexPath) as! PaddingTableViewCell
         let view = cell.customView as! MobileHeaderView
-        let border = BorderProperties(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
+        let border: BorderProperties = .init(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
         view.numberLabel.text = payment.phoneNumber
         view.setBorder(properties: border)
         view.backgroundColor = .white
@@ -211,57 +211,57 @@ extension PaymentDetailViewController: UITableViewDataSource {
         case .mobileHeader:
             return createMobileHeaderSection(indexPath: indexPath)
         case .detailOrder:
-            var prop = TextProperties(text: "Detail Pesanan", color: .black, size: 18, weight: .medium)
+            var prop: TextProperties = .init(text: "Detail Pesanan", color: .black, size: 18, weight: .medium)
             prop.background = .kredivoBlue.withAlphaComponent(0.1)
             return createTitleSection(indexPath: indexPath, properties: prop)
         case .orderStatus:
-            let title = TextProperties(text: "Status", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: "Transaksi Berhasil", color: .kredivoGreen, size: 14, weight: .regular)
-            let border = BorderProperties(edges: [.left, .top, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: "Status", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: "Transaksi Berhasil", color: .kredivoGreen, size: 14, weight: .regular)
+            let border: BorderProperties = .init(edges: [.left, .top, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .orderID:
-            let title = TextProperties(text: "Order ID", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: payment.transaction.orderID, color: .black, size: 14, weight: .regular)
-            let border = BorderProperties(edges: [.left, .bottom, .right], color: UIColor.black.withAlphaComponent(0.2), thickness: 1, corners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner], cornerRadius: 5)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: "Order ID", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: payment.transaction.orderID, color: .black, size: 14, weight: .regular)
+            let border: BorderProperties = .init(edges: [.left, .bottom, .right], color: UIColor.black.withAlphaComponent(0.2), thickness: 1, corners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner], cornerRadius: 5)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties)
         case .detailPayment:
-            var prop = TextProperties(text: "Detail Pembayaran", color: .black, size: 18, weight: .medium)
+            var prop: TextProperties = .init(text: "Detail Pembayaran", color: .black, size: 18, weight: .medium)
             prop.background = .kredivoBlue.withAlphaComponent(0.1)
             return createTitleSection(indexPath: indexPath, properties: prop)
         case .mobileDetail:
-            let title = TextProperties(text: item.name, color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: item.unitPrice.toCurrency(), color: .black, size: 14, weight: .regular)
-            let border = BorderProperties(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: item.name, color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: item.unitPrice.toCurrency(), color: .black, size: 14, weight: .regular)
+            let border: BorderProperties = .init(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties, padding: 10)
         case .fee:
-            let title = TextProperties(text: "Admin Fee", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: "Rp3.090", color: .black, size: 14, weight: .regular)
-            let border = BorderProperties(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: "Admin Fee", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: "Rp3.090", color: .black, size: 14, weight: .regular)
+            let border: BorderProperties = .init(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties, padding: 10)
         case .dicount:
-            let title = TextProperties(text: "Diskon Tambahan", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: "Rp1.500", color: .black, size: 14, weight: .regular)
-            let border = BorderProperties(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: "Diskon Tambahan", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: "Rp1.500", color: .black, size: 14, weight: .regular)
+            let border: BorderProperties = .init(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties, padding: 10)
         case .subtotal:
-            let title = TextProperties(text: "Subtotal", color: .black, size: 14, weight: .regular)
-            let content = TextProperties(text: payment.transaction.amount.toCurrency(), color: .black, size: 14, weight: .regular)
-            let border = BorderProperties(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: "Subtotal", color: .black, size: 14, weight: .regular)
+            let content: TextProperties = .init(text: payment.transaction.amount.toCurrency(), color: .black, size: 14, weight: .regular)
+            let border: BorderProperties = .init(edges: [.left, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties, padding: 10)
         case .divider:
-            let border = BorderProperties(edges: [.top], color: UIColor.black.withAlphaComponent(0.2), thickness: 1, isDashPattern: true)
+            let border: BorderProperties = .init(edges: [.top], color: UIColor.black.withAlphaComponent(0.2), thickness: 1, isDashPattern: true)
             return createDividerSection(indexPath: indexPath, properties: border)
         case .paymentTerm:
-            let title = TextProperties(text: "Bayar Dalam 30 Hari", color: .black, size: 18, weight: .medium)
-            let content = TextProperties(text: payment.transaction.amount.toCurrency(isBreakSpace: false), color: .kredivoOrange, size: 18, weight: .medium)
-            let border = BorderProperties(edges: [.left, .bottom, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1, corners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner], cornerRadius: 5)
-            let properties = DetailProperties(title: title, content: content, border: border)
+            let title: TextProperties = .init(text: "Bayar Dalam 30 Hari", color: .black, size: 18, weight: .medium)
+            let content: TextProperties = .init(text: payment.transaction.amount.toCurrency(isBreakSpace: false), color: .kredivoOrange, size: 18, weight: .medium)
+            let border: BorderProperties = .init(edges: [.left, .bottom, .right], color: UIColor.black.withAlphaComponent(0.1), thickness: 1, corners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner], cornerRadius: 5)
+            let properties: DetailProperties = .init(title: title, content: content, border: border)
             return createDetailSection(indexPath: indexPath, properties: properties, padding: 10)
         case .help:
             let attributedText = NSMutableAttributedString(string: "Jika kamu punya kendala terkait transaksimu, pastikan untuk menghubungi customer service kami di ", attributes: [.foregroundColor: UIColor.black.withAlphaComponent(0.5), .font: UIFont.systemFont(ofSize: 12)])
