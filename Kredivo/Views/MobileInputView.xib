@@ -43,7 +43,10 @@
                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6iX-NY-l4S">
                     <rect key="frame" x="92" y="83.333333333333329" width="355" height="23.333333333333329"/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="numberPad" smartInsertDeleteType="no" smartQuotesType="no"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="password"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="doneAccessory" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="delegate" destination="iN0-l3-epB" id="zc6-JC-l5C"/>
                     </connections>

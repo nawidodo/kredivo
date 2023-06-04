@@ -27,7 +27,7 @@
                         <constraint firstAttribute="height" constant="50" id="wLw-bh-ySv"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="password"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                             <real key="value" value="2"/>
@@ -38,6 +38,7 @@
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                             <real key="value" value="5"/>
                         </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="doneAccessory" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="delegate" destination="iN0-l3-epB" id="YXy-k0-CTd"/>

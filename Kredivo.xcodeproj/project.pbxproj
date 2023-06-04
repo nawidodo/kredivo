@@ -37,6 +37,7 @@
 		CD3459462A24B92300139DC4 /* TopUpContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */; };
 		CD38338A2A26E9F0009897A2 /* PromoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */; };
 		CD38338B2A26E9F0009897A2 /* PromoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */; };
+		CD4572C02A2C22F6007D2440 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4572BF2A2C22F6007D2440 /* UITextField+Extensions.swift */; };
 		CD617DCB2A2B522200CD1A6A /* ProductResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CD617DCA2A2B522200CD1A6A /* ProductResponse.json */; };
 		CD617DCE2A2B538200CD1A6A /* BorderProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DCD2A2B538200CD1A6A /* BorderProperties.swift */; };
 		CD617DD02A2B539B00CD1A6A /* DetailProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD617DCF2A2B539B00CD1A6A /* DetailProperties.swift */; };
@@ -99,6 +100,7 @@
 		CD3459452A24B92300139DC4 /* TopUpContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpContainerViewController.swift; sourceTree = "<group>"; };
 		CD3833882A26E9F0009897A2 /* PromoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoDetailViewController.swift; sourceTree = "<group>"; };
 		CD3833892A26E9F0009897A2 /* PromoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoDetailViewController.xib; sourceTree = "<group>"; };
+		CD4572BF2A2C22F6007D2440 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		CD617DCA2A2B522200CD1A6A /* ProductResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProductResponse.json; sourceTree = "<group>"; };
 		CD617DCD2A2B538200CD1A6A /* BorderProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderProperties.swift; sourceTree = "<group>"; };
 		CD617DCF2A2B539B00CD1A6A /* DetailProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProperties.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				CD617DDF2A2B692000CD1A6A /* String+Extensions.swift */,
 				CD617DE12A2B6E3400CD1A6A /* Double+Extensions.swift */,
 				CD617DE32A2B803B00CD1A6A /* UIViewController+Extensions.swift */,
+				CD4572BF2A2C22F6007D2440 /* UITextField+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				CD617DDC2A2B593B00CD1A6A /* TransactionResponse.swift in Sources */,
 				CD32B6E62A29CBB7004410A6 /* PaymentDetailViewController.swift in Sources */,
 				CD07BCCD2A28DA7C0059A75B /* ConfirmationPaymentViewController.swift in Sources */,
+				CD4572C02A2C22F6007D2440 /* UITextField+Extensions.swift in Sources */,
 				CDF6254F2A232B3400133BDD /* UIView+Extensions.swift in Sources */,
 				CD07BCD92A28FF030059A75B /* VoucherListView.swift in Sources */,
 				CD07BCCF2A28DEAC0059A75B /* MobileHeaderView.swift in Sources */,

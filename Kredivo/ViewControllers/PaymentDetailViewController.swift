@@ -84,15 +84,21 @@ class PaymentDetailViewController: UIViewController {
         self.title = "Detail Pembayaran"
     }
 
+    override func goBack() {
+        let transisiton: CATransition = .init()
+        transisiton.duration = 0.5
+        transisiton.type = .reveal
+        transisiton.subtype = .fromBottom
+        transisiton.timingFunction = .init(name: .easeInEaseOut)
+        navigationController?.view.layer.add(transisiton, forKey: nil)
+        navigationController?.popToRootViewController(animated: false)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         registerCells()
         updateUI()
         updateNavBar(image: "xmark")
-    }
-
-    override func goBack() {
-        navigationController?.popToRootViewController(animated: true)
     }
 }
 
